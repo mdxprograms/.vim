@@ -5,6 +5,9 @@
 " enable syntax highlighting
 syntax on
 
+" enable filetype stuff
+filetype plugin indent on
+
 " disable vi
 set nocompatible
 
@@ -50,6 +53,9 @@ set ttyfast
 " case-insensitive filename completion
 set wildignorecase
 
+" no swap files
+set noswapfile
+
 
 """""""""""""""
 """SEARCHING"""
@@ -86,6 +92,17 @@ set background=dark
 
 " Add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=json syntax=javascript
+
+
+"""""""""""""""
+"""FILETYPES"""
+"""""""""""""""
+
+" html javascript pug
+autocmd FileType html,javascript,pug,sass,css setlocal sw=2 st=2 expandtab
+
+" python
+autocmd FileType python setlocal ts=8 sw=2 expandtab
 
 
 """"""""""""""
