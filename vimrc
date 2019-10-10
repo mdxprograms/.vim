@@ -139,3 +139,6 @@ noremap <silent> <Leader>e :call ToggleNetrw()<CR>
 " write file
 noremap <silent> <Leader>w :w<CR>
 
+" go to previous buffer
+noremap <silent> <Leader><Tab> :b#<CR>
+
