@@ -56,6 +56,9 @@ set wildignorecase
 " no swap files
 set noswapfile
 
+" no wrapping lines
+set nowrap
+
 
 """""""""""""""
 """SEARCHING"""
