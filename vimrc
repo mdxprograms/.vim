@@ -59,6 +59,12 @@ set noswapfile
 " no wrapping lines
 set nowrap
 
+" enable backspace
+set backspace=indent,eol,start
+
+" disable auto comment next line
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 
 """""""""""""""
 """SEARCHING"""
