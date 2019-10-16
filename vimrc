@@ -151,3 +151,22 @@ noremap <silent> <Leader>w :w<CR>
 " go to previous buffer
 noremap <silent> <Leader><Tab> :b#<CR>
 
+
+"""""""""""""""
+"""FUNCTIONS"""
+"""""""""""""""
+
+function! FindFiles()
+	call inputsave()
+	let l:dir = input("Find file in: ", expand("%:p:h"), "dir")
+	call inputrestore()
+	if l:dir != ""
+		call inputsave()
+		let l:file = input("File name: ")
+		call inputrestore()
+		let l:nf = 'find '.l:dir.' -type f -iname '.l:file.' -exec grep -nH -m 1 ".*" {} \;'
+		lexpr system(l:nf)
+	endif
+endfunction
+nnoremap <silent> <leader>f :call FindFiles()<CR>
+
