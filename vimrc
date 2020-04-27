@@ -92,6 +92,7 @@ set smartindent
 """"""""""""
 
 syntax enable
+colorscheme dracula
 set background=dark
 
 

@@ -2,3 +2,6 @@
 	path = pack/default/start/vim-polyglot
 	url = git@github.com:sheerun/vim-polyglot.git
 	ignore = dirty
+[submodule "pack/default/start/dracula/vim"]
+	path = pack/default/start/dracula/theme
+	url = git@github.com:dracula/vim.git
