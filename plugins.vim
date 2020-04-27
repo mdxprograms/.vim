@@ -5,6 +5,21 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+let g:coc_node_path = '/usr/local/bin/node'
+
+" coc plugins list
+let g:coc_global_extensions = [
+\ 'coc-ultisnips',
+\ 'coc-json',
+\ 'coc-tsserver',
+\ 'coc-html',
+\ 'coc-css',
+\ 'coc-yaml',
+\ 'coc-highlight',
+\ 'coc-vetur'
+\ ]
+
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()

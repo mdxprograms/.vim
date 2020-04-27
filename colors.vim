@@ -3,5 +3,5 @@
 """"""""""""
 
 syntax enable
-" colorscheme dracula
+colorscheme dracula
 set background=dark
