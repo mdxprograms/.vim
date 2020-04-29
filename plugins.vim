@@ -27,8 +27,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
+Plug 'mxw/vim-jsx'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
