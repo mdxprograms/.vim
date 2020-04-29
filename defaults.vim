@@ -104,3 +104,7 @@ set shortmess+=c
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
+" ignore that damn bell
+set noeb vb t_vb=
+au GUIEnter * set vb t_vb=
+
