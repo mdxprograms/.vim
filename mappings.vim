@@ -30,3 +30,6 @@ noremap <Leader>e :NERDTreeToggle<CR>
 
 " CtrlP
 noremap <Leader>f :CtrlP<CR>
+
+" emmet
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
