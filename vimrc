@@ -3,6 +3,7 @@ source ~/.vim/plugins.vim
 source ~/.vim/nerdtree.vim
 source ~/.vim/nerdcommenter.vim
 source ~/.vim/ctrlp.vim
+source ~/.vim/ale.vim
 
 source ~/.vim/helpers.vim
 source ~/.vim/colors.vim
