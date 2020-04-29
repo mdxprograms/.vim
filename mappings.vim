@@ -29,7 +29,12 @@ noremap <silent> <Leader>gp :Gpush<CR>
 noremap <Leader>e :NERDTreeToggle<CR>
 
 " CtrlP
-noremap <Leader>f :CtrlP<CR>
+"" find file
+noremap <Leader>ff :CtrlP<CR>
+
+"" recent
+noremap <Leader>fr :CtrlPBuffer<Cr>
 
 " emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
