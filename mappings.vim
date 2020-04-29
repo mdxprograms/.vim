@@ -18,3 +18,6 @@ noremap <silent> <Leader><Tab> :b#<CR>
 noremap <silent> <Leader>gs :G<CR>
 noremap <silent> <Leader>gl :Gpull<CR>
 noremap <silent> <Leader>gp :Gpush<CR>
+
+" NERDTree
+noremap <Leader>e :NERDTreeToggle<CR>
