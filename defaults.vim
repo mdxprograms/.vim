@@ -108,3 +108,7 @@ set signcolumn=yes
 set noeb vb t_vb=
 au GUIEnter * set vb t_vb=
 
+" set gui font
+if has('gui_macvim')
+  set guifont=Operator\ Mono\ Book:h14
+endif
