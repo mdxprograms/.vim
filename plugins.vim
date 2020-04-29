@@ -26,4 +26,5 @@ let g:coc_global_extensions = [
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tpope/vim-fugitive'
 call plug#end()
