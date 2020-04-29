@@ -24,6 +24,7 @@ let g:coc_global_extensions = [
 \ ]
 
 call plug#begin('~/.vim/plugged')
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'mattn/emmet-vim'

@@ -5,6 +5,9 @@
 " Space as my leader
 let mapleader = "\<Space>"
 
+" open vimrc
+noremap <silent> <Leader><Leader> :e ~/.vim/vimrc<CR>
+
 " Back to normal mode
 inoremap jf <ESC><CR>
 
@@ -33,8 +36,7 @@ noremap <Leader>e :NERDTreeToggle<CR>
 noremap <Leader>ff :CtrlP<CR>
 
 "" recent
-noremap <Leader>fr :CtrlPBuffer<Cr>
+noremap <Leader>fr :CtrlPBuffer<CR>
 
 " emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
-
