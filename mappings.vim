@@ -34,9 +34,10 @@ noremap <Leader>e :NERDTreeToggle<CR>
 " CtrlP
 "" find file
 noremap <Leader>ff :CtrlP<CR>
-
 "" recent
 noremap <Leader>fr :CtrlPBuffer<CR>
+"" bookmarks
+noremap <Leader>fp :CtrlPBookmarkDir<CR>
 
 " emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
