@@ -4,3 +4,4 @@ source ~/.vim/mappings.vim
 source ~/.vim/colors.vim
 source ~/.vim/helpers.vim
 source ~/.vim/nerdtree.vim
+source ~/.vim/nerdcommenter.vim
