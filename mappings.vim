@@ -14,6 +14,9 @@ noremap <silent> <Leader>w :w<CR>
 " go to previous buffer
 noremap <silent> <Leader><Tab> :b#<CR>
 
+" close buffer
+noremap <silent> <Leader>bd :bd<CR>
+
 " fugitive
 noremap <silent> <Leader>gs :G<CR>
 noremap <silent> <Leader>gl :Gpull<CR>
