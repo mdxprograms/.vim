@@ -5,7 +5,11 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-let g:coc_node_path = '/usr/local/bin/node'
+if has("macunix")
+  let g:coc_node_path = '/usr/local/bin/node'
+else
+  let g:coc_node_path = '/usr/bin/node'
+endif
 
 " coc plugins list
 let g:coc_global_extensions = [
