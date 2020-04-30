@@ -30,6 +30,8 @@ noremap <silent> <Leader>gp :Gpush<CR>
 
 " NERDTree
 noremap <Leader>e :NERDTreeToggle<CR>
+" ranger
+noremap <silent> <Leader>d :!ranger<CR>
 
 " CtrlP
 "" find file
