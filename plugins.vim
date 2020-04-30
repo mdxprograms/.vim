@@ -5,35 +5,18 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-if has("macunix")
-  let g:coc_node_path = '/usr/local/bin/node'
-else
-  let g:coc_node_path = '/usr/bin/node'
-endif
-
-" coc plugins list
-let g:coc_global_extensions = [
-\ 'coc-ultisnips',
-\ 'coc-json',
-\ 'coc-tsserver',
-\ 'coc-html',
-\ 'coc-css',
-\ 'coc-yaml',
-\ 'coc-highlight',
-\ 'coc-vetur'
-\ ]
-
 call plug#begin('~/.vim/plugged')
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'ElmCast/elm-vim'
+Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin', {'on': 'NERDTreeToggle'}
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'

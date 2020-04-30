@@ -1,3 +1,21 @@
+if has("macunix")
+  let g:coc_node_path = '/usr/local/bin/node'
+else
+  let g:coc_node_path = '/usr/bin/node'
+endif
+
+" coc plugins list
+let g:coc_global_extensions = [
+\ 'coc-ultisnips',
+\ 'coc-json',
+\ 'coc-tsserver',
+\ 'coc-html',
+\ 'coc-css',
+\ 'coc-yaml',
+\ 'coc-highlight',
+\ 'coc-vetur'
+\ ]
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
