@@ -5,7 +5,6 @@ source ~/.vim/nerdcommenter.vim
 source ~/.vim/ctrlp.vim
 source ~/.vim/coc.vim
 source ~/.vim/ale.vim
-source ~/.vim/emmet.vim
 source ~/.vim/helpers.vim
 source ~/.vim/colors.vim
 source ~/.vim/mappings.vim
