@@ -36,7 +36,10 @@ noremap <Leader>e :NERDTreeToggle<CR>
 noremap <Leader>ff :Clap files<CR>
 "" recent
 noremap <Leader>fr :Clap history<CR>
-"" bookmarks
+"" search in files
+noremap <Leader>s :Clap grep<CR>
+
+" bookmarks
 " noremap <Leader>fp :CtrlPBookmarkDir<CR>
 
 " emmet -> <C-y>,
