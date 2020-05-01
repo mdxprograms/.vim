@@ -24,7 +24,7 @@ noremap <silent> <Leader>bd :bd<CR>
 noremap <silent> <Leader>qq :q<CR>
 
 " fugitive
-noremap <silent> <Leader>gs :G<CR>
+" noremap <silent> <Leader>gs :G<CR>
 noremap <silent> <Leader>gl :Gpull<CR>
 noremap <silent> <Leader>gp :Gpush<CR>
 
@@ -44,3 +44,4 @@ noremap <Leader>fr :Clap history<CR>
 " Floaterm
 nnoremap <silent> <Leader>t :FloatermToggle<CR>
 tnoremap <silent> <Leader>t <C-\><C-n>:FloatermToggle<CR>
+nnoremap <silent> <Leader>gs :FloatermNew lazygit<CR>
