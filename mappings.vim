@@ -30,16 +30,14 @@ noremap <silent> <Leader>gp :Gpush<CR>
 
 " NERDTree
 noremap <Leader>e :NERDTreeToggle<CR>
-" ranger
-noremap <silent> <Leader>d :!ranger<CR>
 
-" CtrlP
+" Clap
 "" find file
-noremap <Leader>ff :CtrlP<CR>
+noremap <Leader>ff :Clap files<CR>
 "" recent
-noremap <Leader>fr :CtrlPBuffer<CR>
+noremap <Leader>fr :Clap buffers<CR>
 "" bookmarks
-noremap <Leader>fp :CtrlPBookmarkDir<CR>
+" noremap <Leader>fp :CtrlPBookmarkDir<CR>
 
 " emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
