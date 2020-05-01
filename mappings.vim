@@ -44,4 +44,3 @@ noremap <Leader>fr :Clap history<CR>
 " Floaterm
 nnoremap <silent> <Leader>t :FloatermToggle<CR>
 tnoremap <silent> <Leader>t <C-\><C-n>:FloatermToggle<CR>
-nnoremap <silent> <Leader>gs :FloatermNew lazygit<CR>
