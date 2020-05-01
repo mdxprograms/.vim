@@ -35,9 +35,12 @@ noremap <Leader>e :NERDTreeToggle<CR>
 "" find file
 noremap <Leader>ff :Clap files<CR>
 "" recent
-noremap <Leader>fr :Clap buffers<CR>
+noremap <Leader>fr :Clap history<CR>
 "" bookmarks
 " noremap <Leader>fp :CtrlPBookmarkDir<CR>
 
-" emmet
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+" emmet -> <C-y>,
+
+" Floaterm
+nnoremap <silent> <Leader>t :FloatermToggle<CR>
+tnoremap <silent> <Leader>t <C-\><C-n>:FloatermToggle<CR>
