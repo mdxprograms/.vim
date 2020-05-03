@@ -7,6 +7,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'editorconfig/editorconfig-vim'
 Plug 'ElmCast/elm-vim'
 Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
