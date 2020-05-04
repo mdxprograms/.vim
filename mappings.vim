@@ -28,8 +28,11 @@ noremap <silent><Leader>gs :G<CR>
 noremap <silent><Leader>gl :Gpull<CR>
 noremap <silent><Leader>gp :Gpush<CR>
 
+" PLUGIN MAPPINGS
+
 " NERDTree
 noremap <Leader>e :NERDTreeToggle<CR>
+noremap <Leader>fp :NERDTreeFromBookmark<Space>
 
 " Clap
 "" find file
@@ -39,8 +42,6 @@ noremap <Leader>fr :Clap history<CR>
 "" search in files
 noremap <Leader>s :Clap grep<CR>
 
-" bookmarks
-" noremap <Leader>fp :CtrlPBookmarkDir<CR>
 
 " emmet -> <C-y>,
 
