@@ -23,9 +23,6 @@ noremap <silent> <Leader>bd :bd<CR>
 " close vim
 noremap <silent> <Leader>qq :q!<CR>
 
-" file manager -> ranger
-noremap <silent> <Leader>d :!ranger<CR>
-
 " PLUGIN MAPPINGS
 
 " fugitive

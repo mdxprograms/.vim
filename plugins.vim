@@ -6,9 +6,9 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'ElmCast/elm-vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'editorconfig/editorconfig-vim'
-Plug 'ElmCast/elm-vim'
 Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
 Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
