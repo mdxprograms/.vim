@@ -23,12 +23,15 @@ noremap <silent> <Leader>bd :bd<CR>
 " close vim
 noremap <silent> <Leader>qq :q!<CR>
 
-" fugitive
-noremap <silent><Leader>gs :G<CR>
-noremap <silent><Leader>gl :Gpull<CR>
-noremap <silent><Leader>gp :Gpush<CR>
+" file manager -> ranger
+noremap <silent> <Leader>d :!ranger<CR>
 
 " PLUGIN MAPPINGS
+
+" fugitive
+noremap <silent> <Leader>gs :G<CR>
+noremap <silent> <Leader>gl :Gpull<CR>
+noremap <silent> <Leader>gp :Gpush<CR>
 
 " NERDTree
 noremap <Leader>e :NERDTreeToggle<CR>
@@ -42,9 +45,4 @@ noremap <Leader>fr :Clap history<CR>
 "" search in files
 noremap <Leader>s :Clap grep<CR>
 
-
 " emmet -> <C-y>,
-
-" Floaterm
-nnoremap <silent> <Leader>t :FloatermToggle<CR>
-tnoremap <silent> <Leader>t <C-\><C-n>:FloatermToggle<CR>
