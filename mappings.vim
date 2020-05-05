@@ -34,12 +34,12 @@ noremap <silent> <Leader>gp :Gpush<CR>
 noremap <Leader>e :NERDTreeToggle<CR>
 noremap <Leader>fp :NERDTreeFromBookmark<Space>
 
-" Clap
+" CtrlP
 "" find file
-noremap <Leader>ff :Clap files<CR>
+noremap <Leader>ff :CtrlP<CR>
 "" recent
-noremap <Leader>fr :Clap history<CR>
-"" search in files
-noremap <Leader>s :Clap grep<CR>
+noremap <Leader>fr :CtrlPBuffer<CR>
+"" bookmarks
+noremap <Leader>fp :CtrlPBookmarkDir<CR>
 
-" emmet -> <C-y>,
+"emmet -> <C-y>,

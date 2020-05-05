@@ -2,6 +2,7 @@ source ~/.vim/defaults.vim
 source ~/.vim/plugins.vim
 source ~/.vim/nerdtree.vim
 source ~/.vim/nerdcommenter.vim
+source ~/.vim/ctrlp.vim
 source ~/.vim/coc.vim
 source ~/.vim/ale.vim
 source ~/.vim/helpers.vim
