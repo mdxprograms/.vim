@@ -21,7 +21,7 @@ noremap <silent> <Leader><Tab> :b#<CR>
 noremap <silent> <Leader>bd :bd<CR>
 
 " close vim
-noremap <silent> <Leader>qq :q<CR>
+noremap <silent> <Leader>qq :q!<CR>
 
 " fugitive
 noremap <silent><Leader>gs :G<CR>
