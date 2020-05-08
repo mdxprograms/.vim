@@ -3,7 +3,7 @@ let b:ale_linters = {
 \ 'javascript.jsx': ['eslint', 'prettier'],
 \}
 let g:ale_fixers = {
-\ 'javascript': ['eslint'],
+\ 'javascript': ['eslint', 'prettier'],
 \ 'typescript': ['eslint', 'prettier'],
 \ 'javascript.jsx': ['eslint', 'prettier'],
 \}
