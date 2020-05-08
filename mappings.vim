@@ -31,15 +31,15 @@ noremap <silent> <Leader>gl :Gpull<CR>
 noremap <silent> <Leader>gp :Gpush<CR>
 
 " NERDTree
-noremap <Leader>e :NERDTreeToggle<CR>
-noremap <Leader>fp :NERDTreeFromBookmark<Space>
+noremap <silent> <Leader>e :NERDTreeToggle<CR>
+noremap <silent> <Leader>fp :NERDTreeFromBookmark<Space>
 
 " CtrlP
 "" find file
-noremap <Leader>ff :CtrlP<CR>
+noremap <silent> <Leader>ff :CtrlP<CR>
 "" recent
-noremap <Leader>fr :CtrlPBuffer<CR>
+noremap <silent> <Leader>fr :CtrlPBuffer<CR>
 "" bookmarks
-noremap <Leader>fp :CtrlPBookmarkDir<CR>
+noremap <silent> <Leader>fp :CtrlPBookmarkDir<CR>
 
 "emmet -> <C-y>,
