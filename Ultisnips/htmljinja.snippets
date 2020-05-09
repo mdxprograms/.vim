@@ -1,0 +1,19 @@
+snippet if "if statement"
+{% if $1 %}
+	$2
+{% endif %}
+endsnippet
+
+snippet for "for loop"
+{% for $1 in $2 %}
+	$3
+{% endfor %}
+endsnippet
+
+snippet inc "include"
+{% include $1 %}
+endsnippet
+
+snippet set "set variable"
+{% set $1 = $2 %}
+endsnippet

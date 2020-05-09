@@ -9,7 +9,7 @@ let mapleader = "\<Space>"
 noremap <silent> <Leader><Leader> :e ~/.vim/vimrc<CR>
 
 " Back to normal mode
-inoremap jf <ESC><CR>
+inoremap jf <ESC>
 
 " write file
 noremap <silent> <Leader>w :w<CR>
