@@ -7,6 +7,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
+Plug 'benmills/vimux'
 Plug 'ElmCast/elm-vim'
 Plug 'cespare/vim-toml'
 Plug 'christoomey/vim-tmux-navigator'
