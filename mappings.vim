@@ -45,5 +45,5 @@ noremap <silent> <Leader>fp :CtrlPBookmarkDir<CR>
 "emmet -> <C-y>,
 
 " vimux
-noremap <Leader>rc :VimuxRunCommand<Space>
+noremap <Leader>rc :VimuxPromptCommand<CR>
 noremap <Leader>rr :VimuxRunLastCommand<CR>
