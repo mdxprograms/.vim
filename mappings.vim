@@ -43,3 +43,7 @@ noremap <silent> <Leader>fr :CtrlPBuffer<CR>
 noremap <silent> <Leader>fp :CtrlPBookmarkDir<CR>
 
 "emmet -> <C-y>,
+
+" vimux
+noremap <Leader>rc :VimuxRunCommand<Space>
+noremap <Leader>rr :VimuxRunLastCommand<CR>
