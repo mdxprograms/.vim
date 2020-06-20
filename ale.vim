@@ -1,5 +1,6 @@
 let b:ale_linters = {
 \ 'javascript': ['eslint', 'prettier'],
+\ 'typescript': ['eslint'],
 \ 'javascript.jsx': ['eslint', 'prettier'],
 \}
 let g:ale_fixers = {
